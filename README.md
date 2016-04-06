@@ -46,6 +46,21 @@ cabal build
 You can also check the Releases for binaries.
 
 
+## Example
+
+```bash
+# Run 7 big-step iterations on the initial word "1010"
+./post-darwin-0.1.0.0 big 7 1010
+1010
+100100
+10011
+001100
+11001
+001100
+11001
+```
+
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://jez.io/MIT-LICENSE.txt)
