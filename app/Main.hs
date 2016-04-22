@@ -1,5 +1,7 @@
 {-# LANGUAGE QuasiQuotes #-}
 
+module Main where
+
 import System.Environment (getArgs)
 import Control.Monad
 import System.Console.Docopt
